@@ -1,0 +1,68 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .header {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      font-size: 1.2rem;
+      border: 2px solid white;
+      border-radius: 9px;
+      outline: 2px solid gray;
+  }
+
+  body {
+      background-image: url(/randomQuoteGenerator/image/image1.jpg);
+      background-size: cover;
+      display: grid;
+      align-items: center;
+      align-content: center;
+      justify-items: center;
+      padding-top: 10rem;
+      gap: 10px;
+      padding-bottom: 30px;
+
+
+  }
+
+
+
+  .container {
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 10px;
+      max-width: 50%;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+
+  }
+
+  button,
+  h5,
+  .quote {
+      margin: auto;
+
+  }
+
+  .container h5 {
+      color: red;
+  }
+
+  .quote {
+      margin: 15px;
+      text-align: center;
+
+  }
+
+  .container button {
+      color: white;
+      background-color: black;
+      border: none;
+      padding: 5px;
+      border-radius: 6px;
+      cursor: pointer;
+  }
